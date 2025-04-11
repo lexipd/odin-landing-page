@@ -35,3 +35,40 @@ li a {
     font-size: 25px;
     color: #a98467;
 }
+
+.top-section {
+    background-color: #6c584c;
+    color: #f0ead2;
+    font-size: 20px;
+    padding: 25px 200px 100px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-description {
+    flex: 0 1 500px;
+}
+
+.top-header {
+    margin-bottom: 0;
+}
+
+.description {
+    margin: 8px 0;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #adc178;
+    color: #f0ead2;
+    font-weight: 1000;
+}
+
+button.top-signup-button {
+    border: none;
+}
+
+p {
+    font-size: 15px;
+}
