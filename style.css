@@ -2,6 +2,8 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -43,6 +45,8 @@ li a {
     padding: 25px 200px 100px 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 
 .top-description {
@@ -55,6 +59,13 @@ li a {
 
 img {
     border-radius: 8px;
+}
+
+.top-image img {
+    border: 3px solid #f0ead2;
+    max-width: 900px;
+    width: 100%;
+    height: auto;
 }
 
 .description {
@@ -97,6 +108,10 @@ p {
 .info-box {
     width: 140px;
     margin-top: 25px;
+}
+
+.info-box img {
+    border: 3px solid #adc178;
 }
 
 .middle-section-2 {
