@@ -97,7 +97,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 200px 50px 200px;
+    padding: 25px 200px 25px 200px;
 }
 
 .info-boxes {
@@ -112,6 +112,11 @@ p {
 
 .info-box img {
     border: 3px solid #adc178;
+}
+
+.fact-disclaimer {
+    font-style: italic;
+    margin-top: 50px;
 }
 
 .middle-section-2 {
